@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:linear-gradient(to right, #f0f4f8, #e0e7ff);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#guest-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#guest-name, #guest-category {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#guest-count {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+#guest-list {
+  list-style: none;
+  padding: 0;
+}
+
+.guest-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.guest-item span {
+  flex-grow: 1;
+}
+
+.guest-item .category {
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}
+
+.guest-item .Friend {
+  background-color: #28a745;
+}
+
+.guest-item .Family {
+  background-color: #dc3545;
+}
+
+.guest-item .Colleague {
+  background-color: #ffc107;
+}
+
+.guest-item .attending {
+  background-color: #e6ffe6;
+}
+
+.guest-item .not-attending {
+  background-color: #ffe6e6;
+}
+
+.guest-item button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: #17a2b8;
+}
+
+.remove-button {
+  background-color: #dc3545;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #777;
+}
